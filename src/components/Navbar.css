@@ -1,0 +1,52 @@
+/* Estilo de la barra de navegación */
+.navbar {
+  background-color: #007bff !important; /* Asegúrate de sobrescribir cualquier otro estilo con !important */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; /* Asegúrate de que se aplique la sombra */
+}
+
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important; /* Texto blanco para un buen contraste */
+  font-weight: bold; /* Hace el texto un poco más grueso */
+  font-size: 18px; /* Aumenta el tamaño del texto */
+}
+
+.navbar-brand {
+  font-size: 24px; /* El logo de la marca más grande */
+}
+
+.navbar-nav .nav-link {
+  margin-left: 15px; /* Espaciado entre los elementos del menú */
+  transition: color 0.3s ease-in-out; /* Animación suave al pasar el ratón por encima */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffdd57 !important; /* Cambio de color al hacer hover */
+}
+
+.navbar-toggler {
+  border-color: #ffffff; /* Cambia el color del borde del botón hamburguesa */
+}
+
+.navbar-toggler-icon {
+  background-color: #007bff; /* Icono de hamburguesa blanco */
+}
+
+/* Estilo para pantallas pequeñas */
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-link {
+    margin-left: 0;
+    margin-bottom: 10px; /* Espacio entre enlaces en pantallas pequeñas */
+  }
+}
+
+/* Estilo adicional para hacer la transición más fluida */
+.navbar-toggler {
+  transition: all 0.4s ease;
+}
+
+.navbar-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Efecto hover suave para el botón */
+}
+
+

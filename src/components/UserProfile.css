@@ -1,0 +1,69 @@
+.user-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7fa;
+  }
+  
+  .profile-card {
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .divider {
+    border-top: 1px solid #007bff;
+    margin: 20px 0;
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  .phone-info {
+    margin: 10px 0;
+  }
+  
+  .btn-edit-phone {
+    background-color: #4dd0e1;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .account-created {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  h4 {
+    color: #333;
+  }
+  
